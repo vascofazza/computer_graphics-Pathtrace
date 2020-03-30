@@ -1,0 +1,28 @@
+{
+    "lookat_camera": { "from": [0,0,1], "width": 0.4, "height": 0.4 },
+    "json_meshes": "models/head/head_subsurface.json",
+    "lights": [
+        { "frame": { "o": [0,0.5,0.5] }, "intensity": [0.1,0.1,0.1] }
+    ],
+     "surfaces": [
+        {
+            "frame": { "from": [-4,3,3] },
+            "radius": 2.5, "isquad": true,
+            "material": { "ke": [4.5,4.5,4.5], "kd": [0,0,0], "ks": [0,0,0], "n": 100 }
+        },
+         {
+            "frame": { "from": [4,3,3] },
+            "radius": 2.5, "isquad": true,
+            "material": { "ke": [4.5,4.5,4.5], "kd": [0,0,0], "ks": [0,0,0], "n": 100 }
+        }
+         ,
+         {
+            "frame": { "from": [0,2,-5] },
+            "radius": 2.5, "isquad": true,
+            "material": { "ke": [6,6,6], "kd": [0,0,0], "ks": [0,0,0], "n": 100 }
+        }
+    ],
+    "ambient": [0,0,0],
+    "background": [0,0,0],
+    "image_samples": 10
+}

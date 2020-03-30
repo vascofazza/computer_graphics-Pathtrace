@@ -1,0 +1,40 @@
+{
+    "lookat_camera": { "from": [0,0.5,4] },
+    "meshes": [
+        {
+            "json_mesh": "models/monkey_rot_subdiv.json",
+            "frame": { "o": [-1.35,-1,-1]},
+            "invert":-1,
+            "material": { "kd": [0.5,0.7,0.5], "ks": [0.1,0.1,0.1], "n": 100,"t_factor":65, "translucency":[0.2,0.3,0.2]}
+        },
+        {
+            "json_mesh": "models/sphere.json",
+            "frame": { "o": [1.35,0,-1]},
+            "invert":-1,
+            "subdivision_catmullclark_level": 1,
+            "subdivision_catmullclark_smooth": true,
+            "material": { "kd": [0.7,0.5,0.5], "ks": [0.1,0.1,0.1], "n": 20, "translucency":[0.5,0.3,0.3],"t_factor":2}
+        }
+    ],
+    "surfaces": [
+        {
+            "frame": { "o": [71.25,0,-1] },
+            "material": { "kd": [0.7,0.5,0.5], "ks": [0.3,0.3,0.3], "n": 20 }
+        },
+        {
+            "frame": { "o": [0,-1,0], "x": [1,0,0], "y": [0,0,-1], "z": [0,1,0] },
+            "radius":  10, "isquad": true,
+            "material": { "kd": [1,1,1], "ks": [0,0,0], "n": 100 }
+        },
+        {
+            "frame": { "from": [0,2,-5] },
+            "radius": 2.5, "isquad": true,
+            "material": { "ke": [5,5,5], "kd": [0,0,0], "ks": [0,0,0], "n": 100 }
+        }
+    ],
+
+    "ambient": [0,0,0],
+    "background": [0,0,0],
+    "image_samples": 24,
+    "path_max_depth": 2
+}

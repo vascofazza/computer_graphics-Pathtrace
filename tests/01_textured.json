@@ -1,0 +1,19 @@
+{
+    "lookat_camera": { "from": [0,0,2] },
+    "meshes": [
+        {
+            "pos": [ 0.5,0.5,0, -0.5,0.5,0, -0.5,-0.5,0, 0.5,-0.5,0 ],
+            "norm": [ 0,0,1, 0,0,1, 0,0,1, 0,0,1 ],
+            "texcoord": [ 1,1, 0,1, 0,0, 1,0 ],
+            "quad": [ 0,1,2,3 ],
+            "material": { "kd": [1,1,1], "ks": [0,0,0], "n": 100,
+                "kd_txt": "models/grid_colored.png" }
+        }
+    ],
+    "lights": [
+        { "frame": { "o": [0,0,2] }, "intensity": [8,8,8] }
+    ],
+    "background": [0,0,0],
+    "image_samples": 3,
+    "path_max_depth": 0
+}

@@ -1,0 +1,22 @@
+./run.sh
+../bin/pathtrace 03_env_1.json
+../bin/pathtrace 08_area_dof.json
+../bin/pathtrace 09_plane_dof.json
+../bin/pathtrace 09_plane_dof_circle.json
+../bin/pathtrace 10_area_reflection_blur.json
+../bin/pathtrace 10_area_reflection.json
+../bin/pathtrace 11_light_reflection_blur.json
+../bin/pathtrace 12_buddha.json
+../bin/pathtrace 13_cylinder.json
+../bin/pathtrace 14_hair.json
+#../bin/pathtrace 15_monkey_motionblur.json
+#../bin/pathtrace 15_monkey_motionblur_1.json
+../bin/pathtrace 16_suzanne_hair.json
+../bin/pathtrace 17_head.json
+../bin/pathtrace 18_translucency.json
+../bin/pathtrace 18_translucency_1.json
+../bin/pathtrace 18_translucency_2.json
+../bin/pathtrace 19_sibenik.json
+../bin/pathtrace 20_translucency_rubber.json
+../bin/pathtrace 20_translucency_rubber_1.json
+../bin/pathtrace 21_candle.json

@@ -1,0 +1,29 @@
+{
+    "lookat_camera": { "from": [0,0.5,5] },
+    "surfaces": [
+        {
+            "frame": { "o": [0,0,-1] },
+            "material": { "kd": [0.7,0.7,0.7], "ks": [0.3,0.3,0.3], "n": 20 }
+        },
+        {
+            "frame": { "from": [1.5,1.5,-1], "to": [0,1,-1] },
+            "radius": 2, "isquad": true,
+            "material": { "ke": [0.75,0.75,0.75], "kd": [0,0,0], "ks": [0,0,0], "n": 20 }
+        },
+        {
+            "frame": { "from": [-1.5,1.5,-1], "to": [0,1,-1] },
+            "radius": 2, "isquad": true,
+            "material": { "ke": [1.25,1.25,1.25], "kd": [0,0,0], "ks": [0,0,0], "n": 20,
+                "ke_txt": "models/grid_colored.png"
+            }
+        },
+        {
+            "frame": { "o": [0,-1,0], "x": [1,0,0], "y": [0,0,-1], "z": [0,1,0] },
+            "radius":  10, "isquad": true,
+            "material": { "kd": [1,1,1], "ks": [0,0,0], "n": 100 }
+        }
+    ],
+    "background": [0,0,0],
+    "image_samples": 15,
+    "path_max_depth": 0
+}

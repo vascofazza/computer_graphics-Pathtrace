@@ -1,0 +1,33 @@
+{
+    "lookat_camera": { "from": [0,1,4] },
+    "meshes":
+    [
+        {
+            "obj_mesh": "models/candle_body.obj",
+            "frame":{"x":[0.2,0,0],"y":[0,0.2,0],"z":[0,0,0.2],
+            "o":[1.0,0.1,0.1]},
+            "apply":true,
+            "material": { "kd": [0.40,0.40,0.4], "n": 100 , "translucency":[0.02,0.02,0.02],"t_factor":50}
+        },
+        {
+            "obj_mesh": "models/candle_light.obj",
+            "frame":{"x":[0.2,0,0],"y":[0,0.2,0],"z":[0,0,0.2],
+            "o":[1.0,0.1,0.1]},
+            "apply":true,
+            "material": { "ke": [160,90.49,24.86], "kd": [0,0,0], "ks": [0,0,0], "n": 100 }
+        }
+    ],
+    "surfaces": [
+        {
+            "frame": { "o": [0,0,0], "x": [1,0,0], "y": [0,0,-1], "z": [0,1,0] },
+            "radius":  10, "isquad": true,
+            "material": { "kd": [1,1,1], "ks": [0,0,0], "n": 100 }
+        }
+    ],
+    "ambient": [0,0,0],
+    "background": [0,0,0],
+    "image_samples": 24,
+    "image_width": 512,
+    "image_height": 512,
+    "path_max_depth": 0
+}

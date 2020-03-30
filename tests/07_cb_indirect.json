@@ -1,0 +1,14 @@
+{
+    "lookat_camera": { "from": [0,1,4], "to": [0,1,0], "width": 0.6, "height": 0.6 },
+    "json_meshes": "models/cornell-box-edited.json",
+    "surfaces": [
+        {
+            "frame": { "o": [0,1.98,0], "x": [1,0,0], "y": [0,0,1], "z": [0,-1,0] },
+            "radius": 0.25, "isquad": true,
+            "material": { "ke": [50,50,50], "kd": [0,0,0], "ks": [0,0,0], "n": 100 }
+        }
+    ],
+    "background": [0,0,0],
+    "image_samples": 32,
+    "path_max_depth": 2
+}

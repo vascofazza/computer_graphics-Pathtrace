@@ -1,0 +1,158 @@
+{
+    "lookat_camera": { "from": [-15,-2,0], "to": [-14,-2.5,0], 
+                       "width": 0.8, "height": 0.8 },
+    "json_meshes": "models/sibenik/sibenik.json",
+    "meshes":
+    [
+        {
+            "obj_mesh": "models/buddha_fixed.obj",
+            "frame":{"x":[5,0,0],"y":[0,5,0],"z":[0,0,5],
+            "o":[7.27,-14.16,0.1]},
+            "rotation":[0,1.57,0],
+            "apply":true,
+            "materiall": { "kr": [0.988,0.788,0.345], "kd": [0.0,0.0,0.0],"ks": [0,0,0], "n": 100 },
+            "material": { "kr": [0.45,0.35,0.06], "kd": [0.40,0.30,0.06],"ks": [0.1,0.1,0.1], "n": 100 }
+        },
+        {
+            "obj_mesh": "models/dragon_fixed.obj",
+            "frame":{"x":[5,0,0],"y":[0,5,0],"z":[0,0,5],
+            "o":[-0.5,-15.29484,0]},
+            "apply":true,
+            "material": { "kr": [0.984,0.647,0.545], "kd": [0.0,0.0,0.0], "n": 100 }
+        },
+        {
+            "obj_mesh": "models/candle_body.obj",
+            "frame":{"x":[0.1,0,0],"y":[0,0.2,0],"z":[0,0,0.1],
+            "o":[4.141,-13.04,1.1]},
+            "apply":true,
+            "material": { "kd": [0.40,0.40,0.4], "n": 100 , "translucency":[0.02,0.02,0.02],"t_factor":50}
+        },
+        {
+            "obj_mesh": "models/candle_light.obj",
+            "frame":{"x":[0.1,0,0],"y":[0,0.2,0],"z":[0,0,0.1],
+            "o":[4.141,-13.04,1.1]},
+            "apply":true,
+            "material": { "ke": [80,45.49,12.86], "kd": [0,0,0], "ks": [0,0,0], "n": 100 }
+        },
+        {
+            "obj_mesh": "models/candle_body.obj",
+            "frame":{"x":[0.1,0,0],"y":[0,0.2,0],"z":[0,0,0.1],
+            "o":[4.141,-13.04,-0.9]},
+            "apply":true,
+            "material": { "kd": [0.40,0.40,0.4], "n": 100 , "translucency":[0.02,0.02,0.02],"t_factor":50}
+        },
+        {
+            "obj_mesh": "models/candle_light.obj",
+            "frame":{"x":[0.1,0,0],"y":[0,0.2,0],"z":[0,0,0.1],
+            "o":[4.141,-13.04,-0.9]},
+            "apply":true,
+            "material": { "ke": [80,45.49,12.86], "kd": [0,0,0], "ks": [0,0,0], "n": 100 }
+        },
+        {
+            "obj_mesh": "models/candle_body.obj",
+            "frame":{"x":[0.2,0,0],"y":[0,0.5,0],"z":[0,0,0.2],
+            "o":[0.2,-9.29484,-2.5]},
+            "apply":true,
+            "material": { "kd": [0.40,0.40,0.4], "n": 100 , "translucency":[0.02,0.02,0.02],"t_factor":150}
+        },
+        {
+            "obj_mesh": "models/candle_light.obj",
+            "frame":{"x":[0.2,0,0],"y":[0,0.5,0],"z":[0,0,0.2],
+            "o":[0.2,-9.29484,-2.5]},
+            "apply":true,
+            "material": { "ke": [160,90.49,24.86], "kd": [0,0,0], "ks": [0,0,0], "n": 100 }
+        },
+        {
+            "obj_mesh": "models/candle_body.obj",
+            "frame":{"x":[0.2,0,0],"y":[0,0.5,0],"z":[0,0,0.2],
+            "o":[2,-10.29484,2.5]},
+            "apply":true,
+            "material": { "kd": [0.40,0.40,0.4], "n": 100 , "translucency":[0.02,0.02,0.02],"t_factor":50}
+        },
+        {
+            "obj_mesh": "models/candle_light.obj",
+            "frame":{"x":[0.2,0,0],"y":[0,0.5,0],"z":[0,0,0.2],
+            "o":[2,-10.29484,2.5]},
+            "apply":true,
+            "material": { "ke": [160,90.49,24.86], "kd": [0,0,0], "ks": [0,0,0], "n": 100 }
+        },
+        {
+            "obj_mesh": "models/candle_body.obj",
+            "frame":{"x":[0.2,0,0],"y":[0,0.5,0],"z":[0,0,0.2],
+            "o":[15,-7.29484,-1.5]},
+            "apply":true,
+            "material": { "kd": [0.40,0.40,0.4], "n": 100 , "translucency":[0.02,0.02,0.02],"t_factor":50}
+        },
+        {
+            "obj_mesh": "models/candle_light.obj",
+            "frame":{"x":[0.2,0,0],"y":[0,0.5,0],"z":[0,0,0.2],
+            "o":[15,-7.29484,-1.5]},
+            "apply":true,
+            "material": { "ke": [160,90.49,24.86], "kd": [0,0,0], "ks": [0,0,0], "n": 100 }
+        },
+        {
+            "obj_mesh": "models/candle_body.obj",
+            "frame":{"x":[0.2,0,0],"y":[0,0.5,0],"z":[0,0,0.2],
+            "o":[13,-8.5,2]},
+            "apply":true,
+            "material": { "kd": [0.40,0.40,0.4], "n": 100 , "translucency":[0.02,0.02,0.02],"t_factor":50}
+        },
+        {
+            "obj_mesh": "models/candle_light.obj",
+            "frame":{"x":[0.2,0,0],"y":[0,0.5,0],"z":[0,0,0.2],
+            "o":[13,-8.5,2]},
+            "apply":true,
+            "material": { "ke": [160,90.49,24.86], "kd": [0,0,0], "ks": [0,0,0], "n": 100 }
+        },
+        {
+            "obj_mesh": "models/candle_body.obj",
+            "frame":{"x":[0.2,0,0],"y":[0,0.5,0],"z":[0,0,0.2],
+            "o":[10.5,-13,-2]},
+            "apply":true,
+            "material": { "kd": [0.40,0.40,0.4], "n": 100 , "translucency":[0.02,0.02,0.02],"t_factor":50}
+        },
+        {
+            "obj_mesh": "models/candle_light.obj",
+            "frame":{"x":[0.2,0,0],"y":[0,0.5,0],"z":[0,0,0.2],
+            "o":[10.5,-13,-2]},
+            "apply":true,
+            "material": { "ke": [160,90.49,24.86], "kd": [0,0,0], "ks": [0,0,0], "n": 100 }
+        }
+    ],
+    "lightss": [
+        { "frame": { "o": [-15,3.5,0] }, "intensity": [200,200,200] }
+    ],
+    "surfaces": [
+        {
+            "frame": { "from": [-15,2,0], "to":[-14,1,0] },
+            "radius": 2.5, "isquad": true,
+            "material": { "ke": [10,7.5,3.607], "kd": [0,0,0], "ks": [0,0,0], "n": 100 }
+        },
+        {
+            "frame": { "o":[-0.5,-11.29484,-7] },
+            "radius": 1, "isquad": false,
+            "material": { "ke": [40,30.05,14.43], "kd": [1,0.75,0.36], "ks": [0,0,0], "n": 100 }
+        },
+        {
+            "frame": { "o":[-0.5,-11.29484,7] },
+            "radius": 1, "isquad": false,
+            "material": { "ke": [40,30.05,14.43], "kd": [1,0.75,0.36], "ks": [0,0,0], "n": 100 }
+        },
+        {
+            "frame": { "o":[8,-8.29484,-7] },
+            "radius": 1, "isquad": false,
+            "material": { "ke": [20.15,14.6,7.65], "kd": [1,0.75,0.36], "ks": [0,0,0], "n": 100 }
+        },
+        {
+            "frame": { "o":[8,-8.29484,7] },
+            "radius": 1, "isquad": false,
+            "material": { "ke": [20.15,14.6,7.65], "kd": [1,0.75,0.36], "ks": [0,0,0], "n": 100 }
+        }
+    ],
+    "ambient": [0,0,0],
+    "background": [0,0,0],
+    "image_samples": 40,
+    "image_width": 1024,
+    "image_height": 1024,
+    "path_max_depth": 2
+}

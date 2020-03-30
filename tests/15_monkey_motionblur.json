@@ -1,0 +1,34 @@
+{
+    "lookat_camera": { "from": [0,0.4,5], "dist": 0.5, "width": 0.8, "height": 0.8 },
+    "meshes": [
+        {
+            "json_mesh": "models/monkey.json",
+            "material": { "kd": [0.7,0.7,0.7], "ks": [0.3,0.3,0.3], "n": 100 },
+            "animation": {
+                "keytimes": [ 0, 5, 10, 15, 20 ],
+                "translation": [ 0,0,0, 0.5,0,0, 0,0,0, -0.5,0,0, 0,0,0 ],
+                "rotation": [ 0,0,0, 0,0,0, 0,0,0, 0,0,0, 0,0,0 ]
+            }
+        },
+        {
+          "frame": { "o": [0,0.0,-0.5] },
+            "pos": [3,3,0, -3,3,0, -3,-3,0, 3,-3,0],
+            "norm": [0,0,1, 0,0,1, 0,0,1, 0,0,1],
+            "texcoord": [1, 1, 0,1, 0,0, 1,0],
+            "quad": [0,1,2,3],
+            "material": {"kd": [1,1,1], "ks": [0,0,0], "n": 100,
+                "kd_txt": "models/grid_colored.png"
+            }
+        }
+    ],
+    "surfaces": [
+        {
+            "frame": { "from": [2,0.5,5.5] },
+            "radius": 1.5, "isquad": true,
+            "material": { "ke": [10,10,10], "kd": [0,0,0], "ks": [0,0,0], "n": 100 }
+        }
+    ],
+    "animation": { "length": 10 },
+    "image_samples": 20,
+    "background":[0,0,0]
+}

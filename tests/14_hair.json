@@ -1,0 +1,42 @@
+{
+    "lookat_camera": { "from": [0,0.5,4] },
+    "meshes": [
+        {
+            "frame": { "o": [0,-2.5,0], "x": [1,0,0], "y": [0,0,-1], "z": [0,1,0] },
+            "pos": [ 10,10,0, -10,10,0, -10,-10,0, 10,-10,0 ],
+            "norm": [ 0,0,1, 0,0,1, 0,0,1, 0,0,1 ],
+            "texcoord": [ 1,1, 0,1, 0,0, 1,0 ],
+            "quad": [0,1,2,3],
+            "material": { "kd": [1,1,1], "ks": [0,0,0], "n": 100 }
+        },
+        {
+            "json_mesh": "models/sphere.json",
+        	"frame": { "o": [1.3,0,-1] },
+            "material": { "kd": [1,0.7,0.7], "ks": [0.7,0.7,0.7], "n": 20, "hair_count":50000, "ruffle":0.85, "hair_radius":0.0010 },
+            "hair_material": { "kd": [0.035,0.031,0.023], "ks": [0.3,0.3,0.3], "n": 50 }
+        },
+        {
+            "json_mesh": "models/monkey.json",
+        	"frame": { "o": [-1.3,0,-1] },
+            "material": { "kd": [0.7,1,0.7], "ks": [0.7,0.7,0.7], "n": 100,"hair_count":50000, "ruffle":0.65, "hair_radius":0.0015 },
+            "hair_material": { "kd": [0.718,0.589,0.461], "ks": [0.3,0.3,0.3], "n": 50 }
+        }
+    ],
+    "surfaces": [
+        {
+            "frame": { "from": [-4,5,6] },
+            "radius": 2.5, "isquad": true,
+            "material": { "ke": [4.5,4.5,4.5], "kd": [0,0,0], "ks": [0,0,0], "n": 100 }
+        }
+    ],
+    "lights": [
+        { "frame": { "o": [ 4,12,5] }, "intensity": [50,50,50] },
+        { "frame": { "o": [-4,10,5] }, "intensity": [30,30,30] }
+    ],
+    "ambient":[0,0,0],
+    "background":[0,0,0],
+    "image_samples": 15,
+    "path_max_depth": 0,
+    "image_width": 1024,
+    "image_height": 1024
+}

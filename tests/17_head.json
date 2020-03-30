@@ -1,0 +1,30 @@
+{
+    "lookat_camera": { "from": [0,0,1], "width": 0.4, "height": 0.4 },
+    "json_meshes": "models/head/head.json",
+    "meshes":
+    [
+         {
+             "json_mesh": "models/head/head_hair.json",
+             "material": { "hair_count":80000, "hair_length":0.1, "ruffle":0.9, "hair_radius": 0.0015 },
+            "hair_material": { "kd": [0.01,0.01,0.01], "ks": [0.15,0.15,0.15], "n": 50 }
+         }
+    ],
+    "lights": [
+        { "frame": { "o": [0,0.5,0.5] }, "intensity": [0.1,0.1,0.1] }
+    ],
+     "surfaces": [
+        {
+            "frame": { "from": [-4,3,3] },
+            "radius": 2.5, "isquad": true,
+            "material": { "ke": [4.5,4.5,4.5], "kd": [0,0,0], "ks": [0,0,0], "n": 100 }
+        },
+         {
+            "frame": { "from": [4,3,3] },
+            "radius": 2.5, "isquad": true,
+            "material": { "ke": [4.5,4.5,4.5], "kd": [0,0,0], "ks": [0,0,0], "n": 100 }
+        }
+    ],
+    "ambient": [0,0,0],
+    "background": [0,0,0],
+    "image_samples": 15
+}
