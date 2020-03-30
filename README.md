@@ -49,6 +49,6 @@ Pick the ones that are most interesting to you. In general the easiest to implem
 
 <img src="tests/18_translucency.png" alt="18_translucency" style="zoom:50%;" />
 
-<img src="/Users/fscozzafava/Library/Mobile Documents/com~apple~CloudDocs/Xcode/Graphics16/assignment04/tests/21_candle.png" alt="21_candle" style="zoom:50%;" />
+<img src="tests/21_candle.png" alt="21_candle" style="zoom:50%;" />
 
-<img src="/Users/fscozzafava/Library/Mobile Documents/com~apple~CloudDocs/Xcode/Graphics16/assignment04/tests/18_translucency_2.png" alt="18_translucency_2" style="zoom:50%;" />
+<img src="tests/18_translucency_2.png" alt="18_translucency_2" style="zoom:50%;" />
